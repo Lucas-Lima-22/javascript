@@ -1,6 +1,7 @@
 body{
     background-color: lightskyblue;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 header{
@@ -26,4 +27,23 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+thead{
+    background-color: lightgray;
+}
+
+tbody{
+    background-color: white;
+}
+
+td, th{
+    border: 0.8px solid black;
+    padding: 10px;
 }
